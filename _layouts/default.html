@@ -21,8 +21,12 @@
 
       <div class="container content">
         {{ content }}
+	{% include twitter_plug.html %}
+	{% include comments.html %}
       </div>
     </div>
+
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
@@ -43,5 +47,12 @@
         }, false);
       })(document);
     </script>
+
+    <!-- add twitter account on the bottom -->
+    <!-- <footer class="footer"> -->
+    <!--   {% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %} -->
+    <!--   {% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">{% include svg-icons/twitter.html %}</a>{% endif %} -->
+    <!-- </footer> -->
+    
   </body>
 </html>

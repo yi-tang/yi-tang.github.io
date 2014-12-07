@@ -17,7 +17,7 @@ tagline:             'Reflection on a Life via Data Analytics'
 description:         '“Life can only be understood backwards; but it must be lived forwards.” 
 ― Søren Kierkegaard '
 # Thoughts about my life through data and statistical technics.'
-url:                 http://lanyon.getpoole.com
+url:                 http://yi-tang.github.io/
 baseurl:             /
 paginate:            5
 
@@ -29,3 +29,10 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+
+# Includes an icon in the footer for each user name you enter
+footer-links:
+  github: yi-tang
+  twitter: yi_stats
+  linkedin: tonytangyi	   
