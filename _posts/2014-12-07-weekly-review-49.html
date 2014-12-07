@@ -1,0 +1,262 @@
+---
+layout: post
+title: Weekly Review - 2014-W49
+excerpt: 
+categories:
+  -  
+tags:
+  - review, QS
+---
+
+<p>
+Last week, I said I will start to 
+</p>
+
+<ol class="org-ol">
+<li>track my time 60/24/7,
+</li>
+<li>daily review Stats consultancy project,
+</li>
+<li>revise stats notes from Uni 
+</li>
+</ol>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Quantified-Self</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+During the last two month, I have denoted myself to building a platform so that I can easily track my time - every minute I spent at home, library and office, using Emacs and org mode. 
+When I was away from a keyboard (i.e computer) I will use <a href="http://dayoneapp.com">Day One</a> to track my time, most likely when I going out. An tracking journal would be like this:
+</p>
+
+<pre class="example">
+1132, start to write 
+1432, shopping 
+1510, chat with a friend 
+1559, take a nap 
+1626, wake, walk to a friend's house 
+have dinner until 1832
+</pre>
+
+<p>
+Each night, I spent 10-30 minute to transfer the tracking journal to org entries format. I find this process is particularly tedious, because for each activities, I need to 
+</p>
+<ol class="org-ol">
+<li>create a heading, 
+</li>
+<li>clock in and out,
+</li>
+<li>navigate to clock entry and change the time (and date sometimes) four times,
+</li>
+<li>refile to the entry to the right org file. 
+</li>
+</ol>
+
+<p>
+I came up with a style and use R process the tracking journal to org entries format automatically, but I feel typing on iPhone is a pain and decide to go back to use <a href="http://www.atimelogger.com">aTimeLogger</a>. It is very user friendly - I can create a dashboard of whatever tasks I want to record, with nice icons, as shown below
+</p>
+
+<div class="figure">
+<p><img src="https://dl.dropboxusercontent.com/u/43889494/2014-12-07%2018.31.18.png" alt="2014-12-07%2018.31.18.png" width="400" />
+</p>
+<p><span class="figure-number">Figure 1:</span> Usage of aTimeLogger</p>
+</div>
+
+<p>
+All I need to do is press the icon and it will begin to clock. On the top, it shows what has been clocking (a pen for writing) and for how long (4 seconds). I press the red button next to icon when the job is done, and it will promote to ask me for comments. 
+</p>
+
+<p>
+This app has a fantastic feature that it allows you to export the clocking data with a specific date range to a CSV file. Each night, I will 
+</p>
+
+<ol class="org-ol">
+<li>export today's entries to a CSV file, 
+</li>
+<li>fire up R and load the CSV file, run this script <sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>, 
+</li>
+<li>copy the output (complete org entries with clock entires) to a .org file and begin to refile. 
+</li>
+</ol>
+
+<p>
+I am quit enjoy this workflow, it makes my life a lot easier. In the near future I want to explore the possibility of automating the refile step. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">New Habit</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+I am a Statistician, had a degree in Mathematics and enjoy problem-solving. I have been constantly challenge myself with many difficulty problems (not necessary for others but definitely for me) like learning Emacs/org-mode, R and teach myself C++11/HTML. 
+</p>
+
+<p>
+Whenever I confront a problem, my brain is stimulated. I will get excited and dive in to the problem. Solving the problem will gives me satisfaction and I am proud of being fearless. But sometimes, especially when I am incapable of solving the problem, being fearless itself is a problem. In that case, I will find myself being trapped there for 2-3 hours, sometimes even days, and can't get anything out of it. 
+</p>
+
+<p>
+So I decided to draw a line: I will tell myself to re-assess the problem if I've been working on that single task for more than 90 minutes. 
+If that happened, I will stop and write a report about 
+</p>
+
+<ol class="org-ol">
+<li>what is the problem and what is it for, 
+</li>
+<li>what I have tried and failed,
+</li>
+<li>what's value solution. 
+</li>
+</ol>
+
+<p>
+It will give me a time to clam down. Writing it down in words really helps to understand the problem. I am surprised that by the number of times that I realised I already have the solution or can live without a one during the re-assessment.  
+</p>
+
+<p>
+It takes no effort to integrate this habit to my currently workflow because the clocking time is shown in the <a href="http://www.emacswiki.org/ModeLine">mode line</a> of Emacs (as shown below). It tells me that I have been editing this weekly review for 1 hour and 7 minutes. 
+</p>
+
+<div class="figure">
+<p><img src="https://dl.dropboxusercontent.com/u/43889494/Screenshot%202014-12-07%2019.07.00.png" alt="Screenshot%202014-12-07%2019.07.00.png" />
+</p>
+<p><span class="figure-number">Figure 2:</span> Clocking time in mode line</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Focus and time review</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li>Work
+<ul class="org-ul">
+<li>Coding (6h)
+<ul class="org-ul">
+<li>develop (5h)
+</li>
+<li>coaching (1h)
+</li>
+</ul>
+</li>
+<li>Stats (11h)
+<ul class="org-ul">
+<li>Apply HT model (5h)
+</li>
+<li>Mote Carlo approxcimation with Ani-thetics variable (3h)
+</li>
+<li>Applying Tower property (3h)
+</li>
+</ul>
+</li>
+<li>Report (11h)
+<ul class="org-ul">
+<li>write (5h)
+</li>
+<li>edit (6h)
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Productive
+<ul class="org-ul">
+<li><span class="check">&#x2611;</span> Emacs 
+<ul class="org-ul">
+<li><span class="check">&#x2611;</span> managing org files 
+</li>
+<li><span class="check">&#x2611;</span> managing projects in org files 
+</li>
+</ul>
+</li>
+<li><span class="check">&#x2611;</span> R 
+<ul class="org-ul">
+<li><span class="check">&#x2611;</span> scripts that prase aTimeLogger data to org entries
+</li>
+</ul>
+</li>
+<li><span class="check">&#x2611;</span> Monte Carlo Simulation
+<ul class="org-ul">
+<li><span class="check">&#x2611;</span> Gibbs sampler 
+</li>
+</ul>
+</li>
+<li><span class="check">&#x2611;</span> Log quantifised-self data 
+</li>
+</ul>
+</li>
+<li>Entertainment 
+<ul class="org-ul">
+<li><span class="check">&#x2611;</span> Watch The Imagination Game
+</li>
+<li><span class="check">&#x2611;</span> Not Going Out
+</li>
+</ul>
+</li>
+<li>Sleep (40h, 8 per day)
+</li>
+<li>Bad habits (1.5h)
+<ul class="org-ul">
+<li>watch junk videos on youtube (1.5h)
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">Goals for next week</h2>
+<div class="outline-text-2" id="text-4">
+<ol class="org-ol">
+<li>Life 
+<ul class="org-ul">
+<li><span class="checkbox">&#x2610;</span> read <a href="http://www.amazon.co.uk/Wherever-You-There-Are-Mindfulness/dp/0749925485">Whenever You Go, There You Are</a> and collect good habits 
+</li>
+<li><span class="checkbox">&#x2610;</span> learn to cook a new dish, probably Lasagna
+</li>
+<li><span class="checkbox">&#x2610;</span> watch The Hobbit: The Battle of the Five Armies
+</li>
+</ul>
+</li>
+<li>CPD
+<ul class="org-ul">
+<li><span class="checkbox">&#x2610;</span> build my R package and host on Github
+</li>
+<li><span class="checkbox">&#x2610;</span> configure this blog
+<ul class="org-ul">
+<li><span class="checkbox">&#x2610;</span> about_me page
+</li>
+<li><span class="checkbox">&#x2610;</span> project page 
+</li>
+</ul>
+</li>
+<li><span class="checkbox">&#x2610;</span> organise study notes on Markov Chain Monte Carlo
+</li>
+<li><span class="checkbox">&#x2610;</span> visualise my time 
+</li>
+</ul>
+</li>
+<li>Work 
+<ul class="org-ul">
+<li><span class="checkbox">&#x2610;</span> do more R coaching 
+</li>
+<li><span class="checkbox">&#x2610;</span> keep practising project managing skill
+</li>
+<li><span class="checkbox">&#x2610;</span> keep practising oragnising skill
+</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p>will update soon</p></div>
+
+
+</div>
+</div>

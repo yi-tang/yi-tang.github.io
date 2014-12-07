@@ -13,8 +13,10 @@ relative_permalinks: true
 
 # Setup
 title:               YiStats
-tagline:             'A Statistician Reflection'
-description:         'A collections of my views on my life through data and statistical technics.'
+tagline:             'Reflection on a Life via Data Analytics'
+description:         '“Life can only be understood backwards; but it must be lived forwards.” 
+― Søren Kierkegaard '
+# Thoughts about my life through data and statistical technics.'
 url:                 http://lanyon.getpoole.com
 baseurl:             /
 paginate:            5
